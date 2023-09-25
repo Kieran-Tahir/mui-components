@@ -2,15 +2,18 @@
 
 ## SETUP 
 
-`npm install @mui/material @emotion/react @emotion/styled @mui/icons-material`
-
-### `npm start`
+- `npm install @mui/material @emotion/react @emotion/styled @mui/icons-material`
+- `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+#### If you want to use these components in a seperate project:
+- Copy the contents of the `mui-node-modules` folder into the `node_modules` folder of your project.
+- In the name of space-saving, the `mui-node-modules` folder has not been pushed to GitHub. To retrieve these folders you will need to clone the `@mui` & `@emotion` node modules.
 
 ## Importing all components
 
