@@ -29,6 +29,13 @@ import {
 import {AddIcon, DeleteIcon} from '@mui/icons-material/Add';
 ```
 
+If you want to customise your components, use the `sx` prop. For example:
+```
+<Button sx={{ color="black" }}>Click here!</Button>
+```
+Follow this link for more info on customisation:
+- `https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop`
+
 ### Core Components and their Variants
 
 #### Layout
